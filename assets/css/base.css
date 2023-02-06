@@ -1,0 +1,31 @@
+:root {
+    --height-navbar: 100px;
+    --primary-color: #D3A265;
+    --primary-font: 'BN Chester Pro';
+    --text-color-1: #8D8D8D;
+    --text-color-2: #B5B5B5;
+    --text-color-3: #3D3737;
+    --text-color-4: #352C2C;
+    --text-color-5: #161616;
+}
+#active {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.content-btn:hover,
+.service-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px var(--text-color-2);
+}
+/* .service-btn:hover {
+    box-shadow: 0px 0px 10px var(--text-color-2);
+} */
+
+@font-face {
+    font-family: 'BN Chester Pro';
+    src: url(/assets/BN\ Chester\ Regular/BN\ Chester\ Regular.otf);
+}
