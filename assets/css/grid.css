@@ -200,8 +200,8 @@
         max-width: 41.66667%;
     }
     .m-5-9 {
-        flex: 0 0 49%;
-        max-width: 49%;
+        flex: 0 0 50%;
+        max-width: 48%;
     }
 
     .m-6 {
@@ -284,10 +284,11 @@
     }
 }
 /* Tablet - PC low resolution > 740px & < 1024px */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1024px) {
     .wide {
         width: 644px;
     }
+    
 }
 /* PC medium resolution > 1113px */
 @media (min-width: 1113px) {

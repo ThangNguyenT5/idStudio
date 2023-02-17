@@ -41,7 +41,7 @@ html {
     margin-left: 0;
 }
 
-#headerLogo::before {
+/* #headerLogo::before {
     content: "";
     position: absolute;
     width: 7px;
@@ -50,7 +50,7 @@ html {
     top: 9px;
     left: 9px;
     background-color: var(--primary-color);
-}
+} */
 
 .headerNav a {
     margin-right: 48px;

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="icon" href="./assets/img/icon-logo.png">
 </head>
 <body>
@@ -21,7 +21,11 @@
                 <div class="headerNavbar hidden-m">
                     <!-- Nav PC -->
                     <ul class="headerNav">
-                        <li><a id="headerLogo" href="#">id Studio</a></li>
+                        <li>
+                            <a id="headerLogo" href="#">
+                            <img src="./assets/img/logo.png" alt="">
+                            </a>
+                        </li>
                         <li><a href="#service">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#pricing">Pricing</a></li>
@@ -51,10 +55,11 @@
                             <p class="content-desc">Our team creates comfortable spaces for our <br> clients. We've been designing your everyday life and <br class="hidden-m"> work through great ideas since 1999.</p>
                             <button class="content-btn f-width">Get started</button>
                         </div>
-                        <div class="content-background" style="background-image: url(./assets/img/img.png);"></div>
+                        <div class="content-background hidden-tablet" style="background-image: url(./assets/img/img.png);"></div>
                     </div>
                 </div>
             </div>
+            <div class="content-background hidden-l hidden-m" style="background-image: url(./assets/img/img.png);"></div>
             <!-- About -->
             <div id="about">
                 <div class="grid wide">
@@ -63,7 +68,7 @@
                         <div class="about-info">
                             <p>Interiart is an award-winning architecture and interior design practice based in NYC. We work internationally on projects of residential & commercial interior design that require a creative approach.</p>
                             <br>
-                            <p class="hidden-m">Our talented and experienced designers leverage their knowledge and expertise to create unique and comfortable interiors for you. Our team knows that interior design can be stressful for the client and we do our best to make it as easy as possible. We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and enjoyable for our clients.</p>
+                            <p class="hidden-tablet hidden-m">Our talented and experienced designers leverage their knowledge and expertise to create unique and comfortable interiors for you. Our team knows that interior design can be stressful for the client and we do our best to make it as easy as possible. We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and enjoyable for our clients.</p>
                         </div>
                         <a href="#" class="readMore-btn">Read More</a>
                     </div>
@@ -116,17 +121,17 @@
                                 <li><a href="#">Office</a></li>
                                 <li><a href="#">Other</a></li>
                             </ul>
-                            <a href="#" class="nav-viewmore hidden-m">View more</a>
+                            <a href="#" class="nav-viewmore hidden-tablet hidden-m">View more</a>
                         </div>
                         <div class="product-items grid row">
-                            <div class="product-item l-2-4 c-12" style="background-image: url(./assets/img/product/product-img-1.png);"></div>
-                            <div class="product-item l-2-4 c-12" style="background-image: url(./assets/img/product/product-img-2.png);"></div>
-                            <div class="product-item l-2-4 c-12" style="background-image: url(./assets/img/product/product-img-3.png);"></div>
-                            <div class="product-item l-2-4 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-4.png);"></div>
-                            <div class="product-item l-2-4 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-5.png);"></div>
-                            <div class="product-item l-2-4 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-6.png);"></div>
-                            <div class="product-item l-2-4 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-7.png);"></div>
-                            <div class="product-item l-2-4 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-8.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12" style="background-image: url(./assets/img/product/product-img-1.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12" style="background-image: url(./assets/img/product/product-img-2.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12" style="background-image: url(./assets/img/product/product-img-3.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-4.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-5.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-6.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-7.png);"></div>
+                            <div class="product-item l-2-4 m-5-9 c-12 hidden-m" style="background-image: url(./assets/img/product/product-img-8.png);"></div>
                         </div>
                         <a href="#" class="nav-viewmore hidden-l">View more</a>
                     </div>
@@ -190,7 +195,7 @@
                     <div class="people-content">
                         <h2 class="people-heading">What <span style="color: #D3A265;">People Say</span></h2>
                         <div class="people-cards row">
-                            <div class="card l-5-9 m-5-9 c-12">
+                            <div class="card l-5-9 m-12 c-12">
                                 <div class="card-heading">
                                     <div class="card-avatar" style="background-image: url(./assets/img/people/people-1.png);"></div>
                                     <div class="card-info">
@@ -213,7 +218,7 @@
                                     Convallis non proin ac bibendum. At pharetra sed ultrices semper. Lectus et ornare ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum. Aliquet etiam eget nulla nulla odio vel.
                                 </p>
                             </div>
-                            <div class="card l-5-9 m-5-9 hidden-m">
+                            <div class="card l-5-9 hidden-tablet hidden-m">
                                 <div class="card-heading">
                                     <div class="card-avatar" style="background-image: url(./assets/img/people/people-2.png);"></div>
                                     <div class="card-info">
