@@ -41,16 +41,6 @@ html {
     margin-left: 0;
 }
 
-/* #headerLogo::before {
-    content: "";
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    border-radius: 50px;
-    top: 9px;
-    left: 9px;
-    background-color: var(--primary-color);
-} */
 
 .headerNav a {
     margin-right: 48px;
@@ -742,16 +732,6 @@ html {
     color: var(--text-color-5);
 }
 
-.headerNav-mobileLogo::after {
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    border-radius: 50px;
-    top: 2px;
-    left: 1px;
-    background-color: var(--primary-color);
-}
 
 .headerNav-mobileMenu {
     width: 35px;
